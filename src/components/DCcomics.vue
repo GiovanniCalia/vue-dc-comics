@@ -73,6 +73,10 @@ export default {
     justify-content: space-between;
 }
 
+img{
+  width: 8%;
+}
+
 li {
     display: inline-block;
     margin: 0 0.5rem;
@@ -81,7 +85,7 @@ li {
     &.active{
       line-height: 8rem;
       color: blue;
-      border-bottom: 10px solid blue;
+      border-bottom: 10px solid rgb(0, 130, 249);
     }
 
     a {
