@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import DCcomics from '.components/DCcomics.vue'
+import DCcomics from './components/DCcomics.vue'
 
 export default {
   name: 'App',
