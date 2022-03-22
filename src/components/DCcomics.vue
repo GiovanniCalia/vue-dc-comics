@@ -3,7 +3,7 @@
     <div class="container">
         <img src="../../src/assets/img/dc-logo.png" alt="DC logo">
     <ul>
-        <li v-for="element in links" :key="element"><a :href="element.href">{{ element.text }}</a></li>
+        <li @click='setActiveIndex(index)' v-for="(element,index) in links" :key="element" :class="{active: index == activeIndex}"><a :href="element.href">{{ element.text }}</a></li>
     </ul>
     </div>
 </header>
@@ -13,6 +13,7 @@ export default {
   name: 'DCcomics',
   data () {
     return {
+      activeIndex: 1,
       links: [
         {
           href: '#',
@@ -56,6 +57,11 @@ export default {
         }
       ]
     }
+  },
+  methods: {
+    setActiveIndex (index) {
+      this.activeIndex = index
+    }
   }
 }
 </script>
@@ -65,19 +71,22 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: red;
-    padding: 1rem;
 }
 
 li {
     display: inline-block;
     margin: 0 0.5rem;
     text-transform: uppercase;
+
+    &.active{
+      line-height: 8rem;
+      color: blue;
+      border-bottom: 10px solid blue;
+    }
+
     a {
         text-decoration: none;
         color: black;
-        padding-bottom: 3rem;
-        border-bottom: 10px solid blue;
     }
 }
 
