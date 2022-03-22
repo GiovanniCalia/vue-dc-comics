@@ -78,10 +78,6 @@ li {
         color: black;
         padding-bottom: 3rem;
         border-bottom: 10px solid blue;
-
-        &hover{
-
-        }
     }
 }
 
