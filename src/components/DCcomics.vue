@@ -2,10 +2,9 @@
 <header>
     ciao
 </header>
-    
 </template>
 <script>
 export default {
-    name: "DCcomics",
+  name: 'DCcomics'
 }
 </script>
