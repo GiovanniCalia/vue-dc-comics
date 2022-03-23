@@ -197,6 +197,8 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+@import '@/assets/styles/otherstyles/variables.scss';
+
 main{
   background-image: url(../../src/assets/img/footer-bg.jpg);
   background-size: cover;
@@ -222,7 +224,7 @@ main{
 }
 
 .second-main{
-  background-color: rgb(0, 130, 249);
+  background-color: $blue_color;
 }
 
 #img-shop{

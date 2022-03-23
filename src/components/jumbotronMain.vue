@@ -13,6 +13,8 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+@import '@/assets/styles/otherstyles/variables.scss';
+
 main{
   background-image: url(../../src/assets/img/jumbotron.jpg);
   background-size: cover;
@@ -27,7 +29,7 @@ main{
 button{
   padding: 0.7rem;
   color: white;
-  background-color: rgb(0, 130, 249);
+  background-color: $blue_color;
   border: none;
   text-transform: uppercase;
   position: absolute;

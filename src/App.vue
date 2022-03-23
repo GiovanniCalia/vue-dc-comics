@@ -2,6 +2,7 @@
   <div id="app">
     <DCcomics />
     <jumbotronMain />
+    <cardsDC />
     <mainDCcomics />
     <footerDCcomics />
   </div>
@@ -10,6 +11,7 @@
 <script>
 import DCcomics from './components/DCcomics.vue'
 import jumbotronMain from './components/jumbotronMain.vue'
+import cardsDC from './components/cardsDC.vue'
 import mainDCcomics from './components/mainDCcomics.vue'
 import footerDCcomics from './components/footerDCcomics.vue'
 
@@ -18,6 +20,7 @@ export default {
   components: {
     DCcomics,
     jumbotronMain,
+    cardsDC,
     mainDCcomics,
     footerDCcomics
   }

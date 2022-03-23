@@ -1,3 +1,3 @@
-@import './otherstyles/variables.css';
-@import './otherstyles/general.css';
-@import './otherstyles/reset.css'
+@import './otherstyles/variables.scss';
+@import './otherstyles/general.scss';
+@import './otherstyles/reset.scss';

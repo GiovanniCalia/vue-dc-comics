@@ -21,6 +21,8 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+@import '@/assets/styles/otherstyles/variables.scss';
+
 footer{
   background-color: rgb(48, 48, 48);
 }
@@ -35,7 +37,7 @@ footer{
   padding: 0.8rem;
   color: white;
   background-color: transparent;
-  border: 2px solid rgb(0, 130, 249);
+  border: 2px solid $blue_color;
 
   &:hover{
     cursor: pointer;
@@ -47,7 +49,7 @@ footer{
 
   div{
     text-transform: uppercase;
-    color: rgb(0, 130, 249);
+    color: $blue_color;
     line-height: 5rem;
     margin-right: 2rem;
 

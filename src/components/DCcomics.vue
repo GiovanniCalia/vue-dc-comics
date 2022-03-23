@@ -67,6 +67,8 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+@import '@/assets/styles/otherstyles/variables.scss';
+
 .container{
     display: flex;
     align-items: center;
@@ -84,13 +86,13 @@ li {
 
     &.active{
       line-height: 8rem;
-      color: blue;
-      border-bottom: 7px solid rgb(0, 130, 249);
+      border-bottom: 7px solid $blue_color;
     }
 
     a {
         text-decoration: none;
         color: black;
+
     }
 }
 
