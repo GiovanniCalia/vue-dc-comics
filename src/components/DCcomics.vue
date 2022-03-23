@@ -87,15 +87,20 @@ li {
     display: inline-block;
     margin: 0 0.5rem;
     text-transform: uppercase;
+    line-height: 8rem;
+    border-bottom: 7px solid transparent;
 
-    &.active{
-      line-height: 8rem;
+    &:hover{
       border-bottom: 7px solid $blue_color;
     }
 
     a {
         text-decoration: none;
         color: black;
+
+        &:hover{
+          color: blue;
+        }
 
     }
 }

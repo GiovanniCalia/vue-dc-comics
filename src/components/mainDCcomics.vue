@@ -1,11 +1,5 @@
 <template>
 <main>
-    <!--<div class="first-main">
-      <div class="container">
-        <h1>Content goes here</h1>
-      </div>
-    </div>-->
-
     <div class="second-main">
       <div class="container">
         <ul class="ul-images">
@@ -210,7 +204,7 @@ main{
 
 .ul-second-main{
   float: left;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .float:after{
@@ -219,18 +213,9 @@ main{
     clear: both;
 }
 
-.first-main{
-  background-color: black;
-}
-
-.second-main{
-  background-color: $blue_color;
-}
-
 #img-shop{
   width: 10%;
-  margin-bottom: 1rem;
-  margin-left: -1rem;
+  margin-left: -2rem;
 }
 
 .third-main{
@@ -248,6 +233,8 @@ main{
 
 .ul-images {
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 h1{
@@ -256,7 +243,6 @@ h1{
 }
 
 .li-inline-block{
-  display: inline-block;
   margin: 3rem 0;
   width: 220px;
 
@@ -282,9 +268,13 @@ h2 {
   margin-top: 1rem;
 }
 
+.second-main{
+  background-color: $blue_color;
+}
+
 .second-li{
   list-style-type: none;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 
   a{
   text-decoration: none;
