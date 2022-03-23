@@ -85,7 +85,7 @@ li {
     &.active{
       line-height: 8rem;
       color: blue;
-      border-bottom: 10px solid rgb(0, 130, 249);
+      border-bottom: 7px solid rgb(0, 130, 249);
     }
 
     a {
