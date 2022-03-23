@@ -48,7 +48,7 @@ footer{
   div{
     text-transform: uppercase;
     color: rgb(0, 130, 249);
-    line-height: 4rem;
+    line-height: 5rem;
     margin-right: 2rem;
 
     &:hover{

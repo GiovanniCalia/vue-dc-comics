@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <DCcomics />
+    <jumbotronMain />
     <mainDCcomics />
     <footerDCcomics />
   </div>
@@ -8,6 +9,7 @@
 
 <script>
 import DCcomics from './components/DCcomics.vue'
+import jumbotronMain from './components/jumbotronMain.vue'
 import mainDCcomics from './components/mainDCcomics.vue'
 import footerDCcomics from './components/footerDCcomics.vue'
 
@@ -15,6 +17,7 @@ export default {
   name: 'App',
   components: {
     DCcomics,
+    jumbotronMain,
     mainDCcomics,
     footerDCcomics
   }
