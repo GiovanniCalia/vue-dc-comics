@@ -7,6 +7,7 @@
                   <div>{{ element.series }}</div>
               </li>
           </ul>
+          <button>load more</button>
       </div>
 
   </main>
@@ -97,17 +98,22 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+@import '@/assets/styles/otherstyles/variables.scss';
+
 main{
     background-color: black;
 }
 
 .container{
     padding-top: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
 }
 
 ul{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 1rem;
 }
 
 li{
@@ -118,12 +124,26 @@ li{
         text-transform: uppercase;
         color: white;
         margin-top: 1rem;
+        text-align: start;
     }
+
     img{
         width: 100%;
         height: 150px;
         object-fit: cover;
         object-position: top;
+    }
+}
+
+button{
+    padding: 1rem 4rem;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    background-color: $blue_color;
+
+    &:hover{
+        cursor: pointer;
     }
 }
 

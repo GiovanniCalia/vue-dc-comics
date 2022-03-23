@@ -28,6 +28,7 @@ main{
 
 button{
   padding: 0.7rem;
+  font-size: 1.5rem;
   color: white;
   background-color: $blue_color;
   border: none;
@@ -35,7 +36,11 @@ button{
   position: absolute;
   bottom: 0;
   left: 0;
-  margin-bottom: calc(-37.89px / 2)
+  margin-bottom: calc(-37.89px / 2);
+
+  &:hover{
+    cursor: pointer;
+  }
 }
 
 </style>

@@ -1,10 +1,10 @@
 <template>
 <main>
-    <div class="first-main">
+    <!--<div class="first-main">
       <div class="container">
-        <h1>--> Content goes here --></h1>
+        <h1>Content goes here</h1>
       </div>
-    </div>
+    </div>-->
 
     <div class="second-main">
       <div class="container">
