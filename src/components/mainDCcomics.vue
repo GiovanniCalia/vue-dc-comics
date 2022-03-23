@@ -29,7 +29,7 @@
           </li>
           <li class="li-inline-block">
             <a href="#!">
-              <img src="../../src/assets/img/buy-comics-shop-locator.png" alt="DC">
+              <img id="img-shop" src="../../src/assets/img/buy-comics-shop-locator.png" alt="DC">
               <div>comic shop locator</div>
             </a>
           </li>
@@ -44,7 +44,7 @@
       </div>
     </div>
 
-    <div class="third-main">
+    <div class="container third-main">
       <div class="container float">
         <div class="little-container">
           <ul class="ul-second-main">
@@ -72,6 +72,7 @@
           </ul>
         </div>
       </div>
+      <img src="../../src/assets/img/dc-logo-bg.png" alt="big DC">
     </div>
 </main>
 
@@ -224,6 +225,25 @@ main{
   background-color: rgb(0, 130, 249);
 }
 
+#img-shop{
+  width: 10%;
+  margin-bottom: 1rem;
+  margin-left: -1rem;
+}
+
+.third-main{
+  display: flex;
+  max-height: 400px;
+  overflow: hidden;
+
+  img{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    bottom: 2rem;
+  }
+}
+
 .ul-images {
   text-align: center;
 }
@@ -236,7 +256,7 @@ h1{
 .li-inline-block{
   display: inline-block;
   margin: 3rem 0;
-  width: 210px;
+  width: 220px;
 
   a{
     text-transform: uppercase;
@@ -246,7 +266,8 @@ h1{
     align-items: center;
 
     img{
-      width: 15%;
+      width: 12%;
+      margin-right: 0.4rem;
     }
 
   }
