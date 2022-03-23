@@ -28,5 +28,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import './assets/styles/stile.css';
+@import './assets/styles/stile.scss';
 </style>
