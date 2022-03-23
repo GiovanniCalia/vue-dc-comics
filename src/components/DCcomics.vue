@@ -3,7 +3,11 @@
     <div class="container">
         <img src="../../src/assets/img/dc-logo.png" alt="DC logo">
     <ul>
-        <li @click='setActiveIndex(index)' v-for="(element,index) in links" :key="element" :class="{active: index == activeIndex}"><a :href="element.href">{{ element.text }}</a></li>
+        <li @click='setActiveIndex(index)' v-for="(element,index) in links" :key="element" :class="{active: index == activeIndex}">
+          <a :href="element.href">
+            {{ element.text }}
+          </a>
+        </li>
     </ul>
     </div>
 </header>
